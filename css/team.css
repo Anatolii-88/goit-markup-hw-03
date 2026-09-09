@@ -1,5 +1,6 @@
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -9,10 +10,18 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  padding: 72px 0;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 
 .team-list li {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-list .team-name {
@@ -30,4 +39,17 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+.team-photo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0 0 4px 4px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px 16px;
 }
