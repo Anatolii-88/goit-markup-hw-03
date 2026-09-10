@@ -10,18 +10,18 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding: 72px 0;
+  margin-bottom: 72px;
 }
 
 .team-list {
   display: flex;
   gap: 24px;
-  flex-wrap: wrap;
 }
 
-.team-list li {
+.team-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
 }
 
 .team-list .team-name {
@@ -40,11 +40,12 @@
   text-align: center;
   color: #434455;
 }
+
 .team-photo {
   max-width: 100%;
   height: auto;
-  border-radius: 0 0 4px 4px;
 }
+
 .info {
   display: flex;
   align-items: center;
